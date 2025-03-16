@@ -1,0 +1,51 @@
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    padding-left: 60px;
+    background-color: #fbf7f4;
+    color: #450506;
+    text-align: left;
+}
+
+h1 {
+    font-weight: 550;
+    font-size: 2.5em;
+}
+
+header {
+    font-family: Mackinac, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-top: 50px;
+    font-size: 1em;
+    margin-left: 0;
+}
+
+main {
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+                   'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    text-align: left;
+    margin-left: 0;
+
+}
+
+.profile {
+    max-width: 800px;
+    /* text-align: left; */
+}
+
+.profile-pic {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.news, .publications, .contact {
+    max-width: 800px;
+    padding: 10px;
+}
+
+a {
+    color: #f46308;
+}
